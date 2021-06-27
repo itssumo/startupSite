@@ -1,0 +1,173 @@
+body {
+  font-family: 'Montserrat';
+  text-align: center;
+}
+
+p {
+  color: #8f8f8f;
+}
+h1,h2,h3{
+  font-weight:bold;
+  line-height: 1.5;
+}
+
+
+/***************************** Heading *****************************/
+.big-heading{
+  font-weight: 900;
+  font-size: 3.5rem;
+  color: white;
+
+}
+.small-heading{
+  font-size: 3rem;
+  font-weight: 600;
+  }
+.mini-heading{
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+/* ****************************Sections *************************************/
+
+.container-fluid {
+  padding: 7% 15%;
+}
+.white-colored{
+  background-color: #fff;
+}
+.colored-section{
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+/***************************** Title section**************************** */
+
+ #title .container-fluid {
+   padding: 3% 15% 7%;
+   text-align: left;
+ }
+/***************************** navigationBar**************************** */
+.navbar-brand {
+  font-family: 'Ubuntu';
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: lighter;
+}
+
+.navbar {
+  padding: 0 0 5% 0;
+}
+
+
+
+/*****************************Download buttons *****************************/
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+.title-img {
+  width: 300px;
+  transform: rotate(25deg);
+  position: absolute;
+
+}
+
+/* ****************************features-Section**************************** */
+
+
+.features-icon {
+  margin: 5% 0 5% 0;
+  color: #ef8172;
+}
+
+.features-icon:hover {
+  color: #ff4c68;
+}
+
+
+#features {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  }
+
+/***************************** Testimonials *****************************/
+#testimonials {
+  background-color: #ef8172;
+  color: white;
+  bottom: 30px;
+}
+
+.testimonial-text{
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+.testimonial-img {
+  width: 15%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press {
+  background-color: #ef8172;
+  }
+
+.logo-img {
+  width: 15%;
+  margin: 2% 2% 5% 2%;
+}
+
+
+
+/***************************** Price card *****************************/
+
+
+.card-box {
+  width: 336.475px;
+  height: 355.800px;
+}
+
+.column {
+  padding: 3% 2%;
+}
+.pricing-text{
+  font-size: 3rem;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+/* ****************************Footer Section *****************************/
+
+.text {
+  font-size: 3rem;
+
+}
+
+
+.footer-icons {
+  padding: 1%;
+}
+
+.footer-icons:hover {
+  color: grey;
+}
+
+/***************************** Media Query *****************************/
+@media (max-width:1000px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-img {
+    position: static;
+    transform: rotate(0);
+  }
+}
